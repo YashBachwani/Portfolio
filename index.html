@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yash Bachwani</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <!-- HEADER SESSION STARTS -->
+   <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/yb.svg" alt="Yash's logo" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <div class="intro">
+                <h2>Hi, I'm <span>Ya</span>sh Bach<span>wani</span></h2>
+                <p>Front-End <span>Developer</span></p>
+                <p class="p1"><span>UI/UX </span>Designer's</p>
+                <p class="p1">With Advanced<span>&nbsp; Frameworks and skills</span></p>
+                </div>
+                <div class="introgif">
+                    <img src="images/coder.gif" height="400px" width="400px"></img>
+                </div>
+            </div>
+        </div>
+   </div>
+   <!-- HEADER SESSION ENDS -->
+   <!-- ABOUT SESSION STARTS -->
+   <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/developer.jpg" alt="My Image">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-heading">About <span>Me</span></h1>
+                    <p>Yash Bachwani a Front-end web developer who design's their each websites with different and attractive using advanced frameworks and languages. A person who has knowledge of teaching Html,Css,Javascript to more than 200 students as well as in Pythogram 3.0 2024 and first member of Gujarat Youth Parliament.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contains active-tab" id="Skills">
+                        <ul>
+                            <li><span>UI/UX Designer</span><br>Creating Advanced Figma Templates</li>
+                            <li><span>Advanced Css Frameworks</span><br>Talwind css and Bootstrap css</li>
+                            <li><span>Javascript</span><br>Maked Game Using JS</li>
+                            <li><span>Python</span><br>Knowledge of Framework 'Django'</li>
+                            <li><span>Rensponsives Websites</span><br>Made responsives websites which are available on google</li>
+                            <li><span>Hosting & Domains</span><br>Knowledge of handling domains and hosting multi-pages websites on the google</li>
+                            <li><span>Problem Solving & Leadership</span><br>Have good knowlege in DSA</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contains" id="Experience">
+                        <ul>
+                            <li><span>Internship Experience</span><br>One Month internsip in 'Way To Web' company</li>
+                            <li><span>As a Freelancer</span><br>Create a Client website <br> who is one of the most public speaker of Ahmedabad. <br> You can search on google by     <a class="link" href="https://mohitjagwani.projectlimitless.in/">"mohitjagwani.com"</a></li>
+                            <li><span>Figma Template</span><br>Created Own college canteen figma design and many different templates of the events.</li>
+                            <li><span>Pythogram 3.0</span><br>Attend the one of the difficult hackathon of python which was organized by St.Xaviers College Ahmedabad.</li>
+                            <li><span>Gujarat Youth Parliament</span><br>I am the member of the First Gujarat Youth Parliament and i am grateful to represent my college there in Gujarat Youth Parliament</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contains" id="Education">
+                        <ul>
+                            <li><span>SSC :- 97.5(2021)</span><br>Infact Jesus School</li>
+                            <li><span>HSC :- 94(2023)</span><br>Infact Jesus School</li>
+                            <li><span>BCA (2023-2026)</span><br>Chimanbhai Patel Institution Of Technology (SVGU)</li>
+                            <li><span>BCA-First Year (2023)</span><br> University Rank First 1st. </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+   </div> 
+   <!-- ABOUT SESSION ENDS -->
+   <!-- SERVICES SESSION STARTS -->
+    <div id="services">
+        <div class="container">
+            <Services class="sub-heading"><span>My</span> Service'<span>s</span></h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Website Making</h2>
+                        <p>Websites which are full of advanced features. A website which looks attractive in all the devices. A websites is made by advanced languages and frameworks.</p>
+                        <a href="#contact">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-crop"></i>
+                        <h2>Figma Design</h2>
+                        <p>A Figma designs which you can preview like a working websites </p>
+                        <a href="#contact">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-app-store"></i>
+                        <h2>Error Solving & Logical Building </h2>
+                        <p>Error solving to the exicisting websites and helps in logic building</p>
+                        <a href="#contact">Learn more</a>
+                    </div>
+                </div>
+        </div>
+    </div>
+   <!-- SERVICES SESSION ENDS -->
+   <!-- PORTFOLIO SESSION  STARTS -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-heading">My<span> Work'</span>s</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/code.jpeg" alt="work images">
+                    <div class="layer">
+                        <h3>Mind Relaxing Game </h3>
+                        <p>This is our childhood one's of the favouriate game which we play in the backsides of notebook.And this is the digital version of that game.</p>
+                        <a href="https://yashbachwani.github.io/Tic-Tac-Toe/"> Play Now</a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/code.jpeg" alt="work images">
+                    <div class="layer">
+                        <h3>Persoanl Speaker</h3>
+                        <p>This is your personal speaker which will converts the any text into the audio and she will speaks for you. This is most helpful for the blind people's</p>
+                        <a href="https://yashbachwani.github.io/Personal-Speaker/"> Listen Now</a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/code.jpeg" alt="work images">
+                    <div class="layer">
+                        <h3>Persoanl Sticky Notes</h3>
+                        <p>This is sticky notges in which you can store unlimited notes untill you delete it by your own and the best part you caan edit any note at any time.</p>
+                        <a href="https://yashbachwani.github.io/Personal-Sticky-Notes/">Store Now</a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://github.com/YashBachwani" class="btn">See More</a>
+        </div>
+    </div>
+   <!-- PORTFOLIO SESSION  ENDS -->
+   <!-- CONTACT SESSION STARTS -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> yash.bachwani30@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> 9662433151</p>
+                    <div class="social-icons">
+                        <a href="https://wa.me/9662433151"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="https://www.instagram.com/yash_bachwani/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://github.com/YashBachwani"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/yash-bachwani-344307272/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/Yash Bachwani resume-1.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" id="" placeholder="Enter your Name" required>
+                        <input type="email" name="Email" id="" placeholder="Enter your Email" required>
+                        <textarea name="Message" id="" rows="6" placeholder="Enter your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="mssg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright's Ⓒ by Yash Bachwani.</p>
+        </div>
+    </div>
+   <!-- CONTACT SESSION ENDS -->
+</body>
+<script src="script.js"></script>
+</html>
